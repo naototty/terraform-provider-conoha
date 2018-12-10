@@ -4,6 +4,10 @@ Terraform plugin for ConoHa -- this project is still a work in progress.
 supported API
 * DNS v1
 
+ConoHa DNS API is OpenStack Designate DNS v1 and v2 at Kilo release API.
+However, the current OpenStack DNS API is v2 only support.
+terraform-provider-openstack also supports only DNS v2.
+
 ## Install
 Just `go get && go build` and copy `terraform-provider-conoha` into the same directory as your `terraform` executable.
 
