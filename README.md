@@ -1,6 +1,9 @@
 # terraform-provider-conoha
 Terraform plugin for ConoHa -- this project is still a work in progress.
 
+supported API
+* DNS v1
+
 ## Install
 Just `go get && go build` and copy `terraform-provider-conoha` into the same directory as your `terraform` executable.
 
